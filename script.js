@@ -1,91 +1,29 @@
-//var, let, const - line-by-line comparion
-//declarations and intialization
+//common Confusion
+
+console.log(nm);
+var nm = "harsh";
+
+console.log(age);
+let age = 23;
 
 
-// var a;  //declare karna no value
-//var a = 12; // declare and initialize
-//var a = 13;
-
-//window main add karta hai
-//function scoped hota hai 
-//aap firse declare kar sakate ho and error nahi aayega even when we use same word
+var x = 1; //global
+{
+    var x =2;//global
+}
+console.log(x);
 
 
-//let b = 12;
-//let a = 12; // you can't redeclare the let that's why we use let
-
-// const dulha = "lab";
-// const dulhan = "laby";
-
-
-//chapter 2 Scope (global, block, functional)
-
-//var a =12; //global scope
-
-
-//this is block
-{   
-     //var b = 12; // var is functional scope 
+let a = 10; //block scope //globl
+{
+let a = 20;
+console.log("Inside:" ,a);
 }
 
-//var a = 123 //this is global scope can use in whole code
+console.log("outside:", a);
 
 
-//now this is an block scope tou can use let it will respect is so let is block scope
-// {
-// let a = 12; 
-// }
-
-//function scope
-// function abcd() {
-//     let a = 12; // let will be use in this function 
-
-// }
-
-/// now but 
-// function abcd(){
-//     if(true){
-//      let a = 12; // now here the let will be used in this function only {} let used in curly braces
-//     }
-// }
-
-// global scope
-//function scoped
-//block scope
-
-
-// Reassignment and redeclaration
-
-// var a = 12;
-// a = 32;
-                                      
-//var a = 233; //redeclaretion is possible with  var
- 
-//let b = 12; // but redeclaration is not allowed with but 
-//b = 32;
-
-//let b = 234;
-
-// Temporal Dead Zone 
-//utna area jitan js ko pata hai ki variable exits karta hai par wo aapko value nahi de sakata
-// console.log(a);
-
-// let a = 12;
-
-
-var a = undefined;
-//Hoisting impact per type
-//hoisting -> ek variable ko jab js mian banate hai to woh variable do hisso maie toot jaata hai and uska declare
-//part upar chala jata hai and uska intialization part neeche reh jata hai 
-
-
-
-
-console.log(a);
-
-
-var a = 12;
-
-
-
-
+const person = { name: "harsh"};
+person.name = "sharma";
+person = {};
+Object.freeze();
