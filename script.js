@@ -28,26 +28,26 @@
      //var b = 12; // var is functional scope 
 }
 
-var a = 123 //this is global scope can use in whole code
+//var a = 123 //this is global scope can use in whole code
 
 
 //now this is an block scope tou can use let it will respect is so let is block scope
-{
-let a = 12; 
-}
+// {
+// let a = 12; 
+// }
 
 //function scope
-function abcd() {
-    let a = 12; // let will be use in this function 
+// function abcd() {
+//     let a = 12; // let will be use in this function 
 
-}
+// }
 
 /// now but 
-function abcd(){
-    if(true){
-     let a = 12; // now here the let will be used in this function only {} let used in curly braces
-    }
-}
+// function abcd(){
+//     if(true){
+//      let a = 12; // now here the let will be used in this function only {} let used in curly braces
+//     }
+// }
 
 // global scope
 //function scoped
@@ -56,12 +56,36 @@ function abcd(){
 
 // Reassignment and redeclaration
 
+// var a = 12;
+// a = 32;
+                                      
+//var a = 233; //redeclaretion is possible with  var
+ 
+//let b = 12; // but redeclaration is not allowed with but 
+//b = 32;
+
+//let b = 234;
+
+// Temporal Dead Zone 
+//utna area jitan js ko pata hai ki variable exits karta hai par wo aapko value nahi de sakata
+// console.log(a);
+
+// let a = 12;
+
+
+var a = undefined;
+//Hoisting impact per type
+//hoisting -> ek variable ko jab js mian banate hai to woh variable do hisso maie toot jaata hai and uska declare
+//part upar chala jata hai and uska intialization part neeche reh jata hai 
+
+
+
+
+console.log(a);
+
+
 var a = 12;
-a = 32;
 
-var a = 233; //redeclaretion is possible with  var
 
-let b = 12; // but redeclaration is not allowed with but 
-b = 32;
 
-let b = 234;
+
