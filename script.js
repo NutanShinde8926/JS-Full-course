@@ -52,3 +52,16 @@ function abcd(){
 // global scope
 //function scoped
 //block scope
+
+
+// Reassignment and redeclaration
+
+var a = 12;
+a = 32;
+
+var a = 233; //redeclaretion is possible with  var
+
+let b = 12; // but redeclaration is not allowed with but 
+b = 32;
+
+let b = 234;
