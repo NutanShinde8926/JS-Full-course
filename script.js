@@ -1,10 +1,38 @@
-var h = document.querySelectorAll("h1")
-console.log(h)
+var h = document.querySelector("h1")
+h.textContent = "bye"
 
-h.forEach(function(e){
-    console.log(e)
-    e.style.color = "blue"
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.getElementById("box")
+// document.getElementsByClassName("demo")
+
+
+
+
+
+
+
+
+// var h = document.querySelectorAll("h1")
+// console.log(h)
+
+// h.forEach(function(e){
+//     console.log(e)
+//     e.style.color = "blue"
+// })
 
 
 
