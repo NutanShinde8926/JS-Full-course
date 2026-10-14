@@ -1,13 +1,36 @@
 var bulb = document.querySelector("#bulb")
-var btns = document.querySelectorAll("button")
+var btn = document.querySelector("button")
 
-btns[0].addEventListener("click",function(){
-    bulb.style.backgroundColor = "yellow"
+var flag = 0
+
+btn.addEventListener("click",function(){
+   if(flag == 0) {
+      bulb.style.backgroundColor = "yellow"
+      console.log("clicked")
+      flag = 1
+   }else{
+     bulb.style.backgroundColor = "transparent"
+     console.log("again clicked")
+     flag = 0
+   }
+
+    
 })
 
-btns[1].addEventListener("click",function(){
-    bulb.style.backgroundColor = "white"
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // var bulb = document.querySelector("#bulb")
