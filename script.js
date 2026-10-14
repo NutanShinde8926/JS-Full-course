@@ -10,9 +10,9 @@ var count = 42;
 // primitivs and         
 reference
 
-let a = 12;
-let b = a;
-a = a + 2;
+// let a = 12;
+// let b = a;
+// a = a + 2;
 
 
 // let a = [1,2,3];
@@ -20,9 +20,9 @@ a = a + 2;
 // b.pop();
 // b.pop();
 
-// String
-// let a = 9007199254740991n;
-// a + 100n;
+String
+let a = 9007199254740991n;
+a + 100n;
 
 
 // dyanamic typing 
