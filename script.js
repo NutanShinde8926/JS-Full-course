@@ -1,29 +1,38 @@
-//common Confusion
-
-console.log(nm);
-var nm = "harsh";
-
-console.log(age);
-let age = 23;
+let x = 5; 
+let y = 10;
 
 
-var x = 1; //global
-{
-    var x =2;//global
-}
-console.log(x);
+console.log(count);  
+var count = 42;
+
+// Data types AND type System
+
+// primitivs and         
+reference
+
+let a = 12;
+let b = a;
+a = a + 2;
 
 
-let a = 10; //block scope //globl
-{
-let a = 20;
-console.log("Inside:" ,a);
-}
+// let a = [1,2,3];
+// let b = a;
+// b.pop();
+// b.pop();
 
-console.log("outside:", a);
+// String
+// let a = 9007199254740991n;
+// a + 100n;
 
 
-const person = { name: "harsh"};
-person.name = "sharma";
-person = {};
-Object.freeze();
+// dyanamic typing 
+// typeof quirks
+// like 1 + "1" =11 
+
+
+// type coercion (== VS ==)
+// truthy vs falsy values
+// "5" + 1 = 51;
+// "5" - 1 = 4; 
+// this is corrcion
+
