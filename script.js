@@ -28,8 +28,8 @@ if(!(temp < 30)) {
 }
 
 
-let a = 0;
-if (a) {
+let z = 0;
+if (z) {
     console.log("Truthy");
 } else {
     console.log("Falsy");
@@ -49,6 +49,39 @@ let hasToken = false;
 let access = loggedIn && hasToken ? "Allow" : "Deny";
 
 console.log(access);
+
+
+//Increment and decrement
+
+let a = 5;
+a++;
+console.log(a)
+
+let b = 7;
+++b;
+console.log(b);
+
+
+let c = 3;
+let d = c++;
+console.log(c,d); //4 3
+
+
+let p = 4;
+let q = ++p;
+console.log(p,q);  //5 5 
+
+
+let m = 10;
+console.log(m--);
+console.log(m);
+
+let n = 5;
+let result = n++ + ++n;
+console.log(result);
+
+
+
 
 
 
