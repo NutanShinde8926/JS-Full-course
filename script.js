@@ -76,13 +76,27 @@ let m = 10;
 console.log(m--);
 console.log(m);
 
+
 let n = 5;
 let result = n++ + ++n;
 console.log(result);
 
 
 
+let likes  = 100;
+function likepost() {
+    return ++likes;
+}
+console.log(likepost())
+console.log(likes);
 
+let count = 5;
+
+if (count-- ===5){
+    console.log("Matched");
+}else {
+    console.log("Not Matched")
+}
 
 
 
