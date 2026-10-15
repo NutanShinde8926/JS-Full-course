@@ -98,7 +98,13 @@ if (count-- ===5){
     console.log("Not Matched")
 }
 
-
+let counts = 5;
+if (counts-- === 4) {
+    console.log("Matched");
+} else {
+    console.log("Not Matched");
+}
+console.log(counts);
 
 
 
