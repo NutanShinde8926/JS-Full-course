@@ -115,6 +115,32 @@ switch(2) {
 //here it is wrong cause no break  that why we get two three output
 
 
+let y = 2;
+switch(2) {
+    case 1:
+        console.log("one");
+        break;
+    case 2:
+        console.log("two");
+        break;
+    case 3:
+        console.log("three"); 
+        break;
+}
+//this way you get right answer two 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
