@@ -4,29 +4,29 @@
 // /switch statement
 // early return pattern 
 
-switch (3) {
-    case 1:
-        break;
-        case 2:
-            break;
-            case 3:
-                 console.log("heyevhds");
-                break;
-                default:
-}
+// switch (3) {
+//     case 1:
+//         break;
+//         case 2:
+//             break;
+//             case 3:
+//                  console.log("heyevhds");
+//                 break;
+//                 default:
+// }
 
 
 
 
 
-function getVal(val)
- {
-    if(val<100) return "A";
-    else if (val<75) return "B";
-    else if (val<50) return "C";
-    else return "D";
- }
- console.log (getVal(89));
+// function getVal(val)
+//  {
+//     if(val<100) return "A";
+//     else if (val<75) return "B";
+//     else if (val<50) return "C";
+//     else return "D";
+//  }
+//  console.log (getVal(89));
 
 
 
@@ -35,44 +35,57 @@ function getVal(val)
  // takes a student marks (0 to 100)
  // returns the grade based on this logic
 
-  function getGrade(score){
-    if(score >= 90 && score <= 100) {
-        return "A";
-    }
-    else if(score >=80 && score <=89){
-        return "B";
-    }
-    else if(score >= 60 && score <=69) {
-        return "C";
-    }
-    else if(score >=33 && score <=59) {
-        return "D"
-    }
-    else if(score >=0 && score <=32) {
-        return "Fail"
-    }
-    else{
-        return "Invalid Marks";
-    }
-  }
-  console.log(getGrade(95));
+//   function getGrade(score){
+//     if(score >= 90 && score <= 100) {
+//         return "A";
+//     }
+//     else if(score >=80 && score <=89){
+//         return "B";
+//     }
+//     else if(score >= 60 && score <=69) {
+//         return "C";
+//     }
+//     else if(score >=33 && score <=59) {
+//         return "D"
+//     }
+//     else if(score >=0 && score <=32) {
+//         return "Fail"
+//     }
+//     else{
+//         return "Invalid Marks";
+//     }
+//   }
+//   console.log(getGrade(95));
 
 
   //Early return code 
 
-   function getGrade(score){
-    if(score >= 90 && score <= 100)  return "A";
-    if(score >=80 && score <=89)  return "B";
-    if(score >= 60 && score <=69)  return "C";
-     if(score >=33 && score <=59) return "D"
-    if(score >=0 && score <=32) return "Fail"
-     return "Invalid Marks";
-    }
-  console.log(getGrade(12));
+//    function getGrade(score){
+//     if(score >= 90 && score <= 100)  return "A";
+//     if(score >=80 && score <=89)  return "B";
+//     if(score >= 60 && score <=69)  return "C";
+//      if(score >=33 && score <=59) return "D"
+//     if(score >=0 && score <=32) return "Fail"
+//      return "Invalid Marks";
+//     }
+//   console.log(getGrade(12));
 
 
+//Rock-Peper-Scissors logic
 
+function rps(user,computer){
 
+    if(user ==="rock" && computer ==="Scissor") return "rock";
+    if(user === "Scissor" & computer ==="rock") return " computer win rock";
+    if(user ==="paper" && computer ==="Scissor") return "Scissor";
+    if(user ==="rock" && computer === "paper") return "rock";
+    if(user === "rock" && computer === "rock") return "draw";
+    if(user === "paper" && computer === "paper") return "draw";
+    if(user === "Scissor" && computer === "Scissor") return "draw";
+else return "invalid"
+
+}
+console.log(rps("rock", "rock"));
 
 
 
