@@ -55,7 +55,7 @@ function getVal(val)
         return "Invalid Marks";
     }
   }
-  console.log(getGrade(70));
+  console.log(getGrade(95));
 
 
 
