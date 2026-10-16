@@ -113,8 +113,8 @@ console.log(counts);
 
 
 
-// document.getElementById("box")
-// document.getElementsByClassName("demo")
+document.getElementById("box")
+document.getElementsByClassName("demo")
 
 
 
@@ -123,13 +123,13 @@ console.log(counts);
 
 
 
-// var h = document.querySelectorAll("h1")
-// console.log(h)
+var h = document.querySelectorAll("h1")
+console.log(h)
 
-// h.forEach(function(e){
-//     console.log(e)
-//     e.style.color = "blue"
-// })
+h.forEach(function(e){
+    console.log(e)
+    e.style.color = "blue"
+})
 
 
 
