@@ -1,6 +1,98 @@
+// repeat karne ko loop kehte hai
+// 1 1  1 1 1 1 1
+// 1 2 3 4 5 7 8
+
+// /kaha se jana hai -> kaha tak jaana hai -> kaise jana hai
+// for loop
+
+// 1 -50
+
+
+// kaha se jana hai -> kab ruk hai  -> kaise jana hai 
+// while loop
+
+// 1 -  dont when to stop
+
+// 1 -40 for loop
+// 20 -30 for loop
+// hello na aajaya - while 
+// laal color ka ped -while
+// when get marrid -while
+
+
+
+
+// FOR loop
+
+for(start; end; change){}
+
+1 -100
+
+for(let i = 1; i<101; i++) {
+   console.log(i);
+}
+
+
+
+//WHILE loop
+// start
+// while(end){
+    //code
+//     change
+// }
+
+
+// let i = 1;
+// while(i<51){
+//     console.log(i);
+//     i++;
+// }
+
+
+
+//DO-WHILE loop
+
+// let  i = 10;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i<20)
+
+
+//BREAK
+
+//  for (let i = 1; i <201; i++){
+//    console.log(i);
+//     if(i === 32){
+//         break;
+//     }
+// }
+
+
+
+//CONTINUE
+// for (let i = 1; i< 100; i++){
+//     if(i === 32){
+//         continue;
+//     }
+//    console.log(i);
+// }
+
+
+
+
+
+
+
+
+
+
+
 //Control flow
 
 // if else ,else if 
+
 // /switch statement
 // early return pattern 
 
@@ -73,62 +165,62 @@
 
 //Rock-Peper-Scissors logic
 
-function rps(user,computer){
+// function rps(user,computer){
 
-    if(user ==="rock" && computer ==="Scissor") return "rock";
-    if(user === "Scissor" & computer ==="rock") return " computer win rock";
-    if(user ==="paper" && computer ==="Scissor") return "Scissor";
-    if(user ==="rock" && computer === "paper") return "rock";
-    if(user === "rock" && computer === "rock") return "draw";
-    if(user === "paper" && computer === "paper") return "draw";
-    if(user === "Scissor" && computer === "Scissor") return "draw";
-else return "invalid"
+//     if(user ==="rock" && computer ==="Scissor") return "rock";
+//     if(user === "Scissor" & computer ==="rock") return " computer win rock";
+//     if(user ==="paper" && computer ==="Scissor") return "Scissor";
+//     if(user ==="rock" && computer === "paper") return "rock";
+//     if(user === "rock" && computer === "rock") return "draw";
+//     if(user === "paper" && computer === "paper") return "draw";
+//     if(user === "Scissor" && computer === "Scissor") return "draw";
+// else return "invalid"
 
-}
-console.log(rps("rock", "rock"));
-
-
-function rps(user,computer){
-
-if(user === computer) return "draw";
-if(user === "rock" && computer === "scissor") return "user";
-if(user === "scissor" && computer === "paper") return "user";
-if(user === "paper" && computer === "rock") return "user";
-
-return "computer win ";
+// }
+// console.log(rps("rock", "rock"));
 
 
-}
-console.log(rps("rock", "paper"));
+// function rps(user,computer){
+
+// if(user === computer) return "draw";
+// if(user === "rock" && computer === "scissor") return "user";
+// if(user === "scissor" && computer === "paper") return "user";
+// if(user === "paper" && computer === "rock") return "user";
+
+// return "computer win ";
+
+
+// }
+// console.log(rps("rock", "paper"));
 
 
 
 // switch statement 
-let x = 2;
-switch(2) {
-    case 1:
-        console.log("one");
-    case 2:
-        console.log("two");
-    case 3:
-        console.log("three"); 
-}
+// let x = 2;
+// switch(2) {
+//     case 1:
+//         console.log("one");
+//     case 2:
+//         console.log("two");
+//     case 3:
+//         console.log("three"); 
+// }
 
 //here it is wrong cause no break  that why we get two three output
 
 
-let y = 2;
-switch(2) {
-    case 1:
-        console.log("one");
-        break;
-    case 2:
-        console.log("two");
-        break;
-    case 3:
-        console.log("three"); 
-        break;
-}
+// let y = 2;
+// switch(2) {
+//     case 1:
+//         console.log("one");
+//         break;
+//     case 2:
+//         console.log("two");
+//         break;
+//     case 3:
+//         console.log("three"); 
+//         break;
+// }
 //this way you get right answer two 
 
 
