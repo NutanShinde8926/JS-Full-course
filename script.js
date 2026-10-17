@@ -42,22 +42,22 @@
 // }
 
 
-let i = 1;
-while(i<51){
-    console.log(i);
-    i++;
-}
+// let i = 1;
+// while(i<51){
+//     console.log(i);
+//     i++;
+// }
 
 
 
 //DO-WHILE loop
 
-// let  i = 10;
-// do{
-//     console.log(i);
-//     i++;
-// }
-// while(i<20)
+let  i = 10;
+do{
+    console.log(i);
+    i++;
+}
+while(i<20)
 
 
 //BREAK
