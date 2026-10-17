@@ -24,13 +24,13 @@
 
 // FOR loop
 
-for(start; end; change){}
+// for(start; end; change){}
 
-1 -100
+// 1 -100
 
-for(let i = 1; i<101; i++) {
-   console.log(i);
-}
+// for(let i = 1; i<101; i++) {
+//    console.log(i);
+// }
 
 
 
@@ -42,11 +42,11 @@ for(let i = 1; i<101; i++) {
 // }
 
 
-// let i = 1;
-// while(i<51){
-//     console.log(i);
-//     i++;
-// }
+let i = 1;
+while(i<51){
+    console.log(i);
+    i++;
+}
 
 
 
