@@ -52,32 +52,32 @@
 
 //DO-WHILE loop
 
-let  i = 10;
-do{
-    console.log(i);
-    i++;
-}
-while(i<20)
+// let  i = 10;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i<20)
 
 
 //BREAK
 
-//  for (let i = 1; i <201; i++){
-//    console.log(i);
-//     if(i === 32){
-//         break;
-//     }
-// }
+ for (let i = 1; i <201; i++){
+   console.log(i);
+    if(i === 32){
+        break;
+    }
+}
 
 
 
 //CONTINUE
-// for (let i = 1; i< 100; i++){
-//     if(i === 32){
-//         continue;
-//     }
-//    console.log(i);
-// }
+for (let i = 1; i< 100; i++){
+    if(i === 32){
+        continue;
+    }
+   console.log(i);
+}
 
 
 
