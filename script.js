@@ -130,45 +130,45 @@
 // }
 
 //5 .print the multiplication table of 5 (i.e .,5*1 =5...5*10 =50)
-for (i = 1; i < 11; i++){
-    console.log(`5 *${i} = ${5 * i}`);
-    }
+// for (i = 1; i < 11; i++){
+//     console.log(`5 *${i} = ${5 * i}`);
+//     }
 
 
-    let  i = 1;
-    while( i< 11){
-        console.log( `5 * ${i} = ${5 * i}`);
-        i++;
-    }
+//     let  i = 1;
+//     while( i< 11){
+//         console.log( `5 * ${i} = ${5 * i}`);
+//         i++;
+//     }
 
 
 
 //6. Find the sum of numbers from i to 100 using a loop.
-// let sum = 0;
-// for (let i = 1 ; i < 101; i++){
-//    console.log( sum = sum + i); here we get value again and again till the last number 
-// }
+let sum = 0;
+for (let i = 1 ; i < 101; i++){
+   console.log( sum = sum + i); //here we get value again and again till the last number 
+}
 
-// let sum = 0;
-// for(let i = 1; i<101; i++){
-//     sum = sum + i;
-// }
-// console.log(sum); now here you get it once cause we write loop in for not in console and this is what we wanted
+let sum = 0;
+for(let i = 1; i<101; i++){
+    sum = sum + i;
+}
+console.log(sum); //now here you get it once cause we write loop in for not in console and this is what we wanted
 
-// let sum = 0;
-// for(let i = 1; i<101; i++){
-//     sum = sum + i;
-//     console.log(sum); 
-// }   well there  are lot of way but  2nd answer is ok to write
+let sum = 0;
+for(let i = 1; i<101; i++){
+    sum = sum + i;
+    console.log(sum); 
+}   //well there  are lot of way but  2nd answer is ok to write
 
 
 
 //7. Print all numbers between  1 to 50 that are divisible by 3.
-// for (let i = 1; i< 51; i++){
-//     if (i%3 === 0){
-//       console.log(i);
-//     }
-// }
+for (let i = 1; i< 51; i++){
+    if (i%3 === 0){
+      console.log(i);
+    }
+}
 
 
 
