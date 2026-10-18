@@ -92,25 +92,25 @@
 
 //2. Print numbers from 10 to 1 using  a while loop.
 
-for(let i = 10; i>0; i--){
-    console.log(i);
-}
+// for(let i = 10; i>0; i--){
+//     console.log(i);
+// }
 
-let i = 10;
-while(i>0){
-    console.log(i);
-    i--;
-}
+// let i = 10;
+// while(i>0){
+//     console.log(i);
+//     i--;
+// }
 
 
 
 //3. print even numbers from 1 to 20 using  a for loop.
 //
-// for(let i = 1; i<21; i++){
-//    if (i%2 === 0){
-//    console.log(i);
-//    }
-// }
+for(let i = 1; i<21; i++){
+   if (i%2 === 0){
+   console.log(i);
+   }
+}
 
 
 //4.print odd numbers from 1 to 15 using a while loop.
