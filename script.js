@@ -85,22 +85,22 @@
 
 // 1.print number from 1 to 10 using a for loop
 
-for(let i = 1; i <11; i++){
-    console.log(i);
-}
+// for(let i = 1; i <11; i++){
+//     console.log(i);
+// }
 
 
 //2. Print numbers from 10 to 1 using  a while loop.
 
-// for(let i = 10; i>0; i--){
-//     console.log(i);
-// }
+for(let i = 10; i>0; i--){
+    console.log(i);
+}
 
-// let i = 10;
-// while(i>0){
-//     console.log(i);
-//     i--;
-// }
+let i = 10;
+while(i>0){
+    console.log(i);
+    i--;
+}
 
 
 
