@@ -114,20 +114,20 @@
 
 
 //4.print odd numbers from 1 to 15 using a while loop.
- for (let i = 1; i<16; i++){
-    if(i%2 === 1){
-        console.log(i);
-    }
- }
-
- 
-// let i = 1;
-// while(i<16) {
+//  for (let i = 1; i<16; i++){
 //     if(i%2 === 1){
 //         console.log(i);
 //     }
-//     i++;
-// }
+//  }
+
+
+let i = 1;
+while(i<16) {
+    if(i%2 === 1){
+        console.log(i);
+    }
+    i++;
+}
 
 //5 .print the multiplication table of 5 (i.e .,5*1 =5...5*10 =50)
 // for (i = 1; i < 11; i++){
