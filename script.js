@@ -106,20 +106,21 @@
 
 //3. print even numbers from 1 to 20 using  a for loop.
 //
-for(let i = 1; i<21; i++){
-   if (i%2 === 0){
-   console.log(i);
-   }
-}
+// for(let i = 1; i<21; i++){
+//    if (i%2 === 0){
+//    console.log(i);
+//    }
+// }
 
 
 //4.print odd numbers from 1 to 15 using a while loop.
-//  for (let i = 1; i<16; i++){
-//     if(i%2 === 1){
-//         console.log(i);
-//     }
-//  }
+ for (let i = 1; i<16; i++){
+    if(i%2 === 1){
+        console.log(i);
+    }
+ }
 
+ 
 // let i = 1;
 // while(i<16) {
 //     if(i%2 === 1){
