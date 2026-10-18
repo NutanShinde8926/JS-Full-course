@@ -144,53 +144,53 @@
 
 
 //6. Find the sum of numbers from i to 100 using a loop.
-let sum = 0;
-for (let i = 1 ; i < 101; i++){
-   console.log( sum = sum + i); //here we get value again and again till the last number 
-}
+// let sum = 0;
+// for (let i = 1 ; i < 101; i++){
+//    console.log( sum = sum + i); //here we get value again and again till the last number 
+// }
 
-let sum = 0;
-for(let i = 1; i<101; i++){
-    sum = sum + i;
-}
-console.log(sum); //now here you get it once cause we write loop in for not in console and this is what we wanted
+// let sum = 0;
+// for(let i = 1; i<101; i++){
+//     sum = sum + i;
+//}
+//console.log(sum); //now here you get it once cause we write loop in for not in console and this is what we wanted
 
-let sum = 0;
-for(let i = 1; i<101; i++){
-    sum = sum + i;
-    console.log(sum); 
-}   //well there  are lot of way but  2nd answer is ok to write
+// let sum = 0;
+// for(let i = 1; i<101; i++){
+//     sum = sum + i;
+//     console.log(sum); 
+// }   //well there  are lot of way but  2nd answer is ok to write
 
 
 
 //7. Print all numbers between  1 to 50 that are divisible by 3.
-for (let i = 1; i< 51; i++){
-    if (i%3 === 0){
-      console.log(i);
-    }
-}
+// for (let i = 1; i< 51; i++){
+//     if (i%3 === 0){
+//       console.log(i);
+//     }
+// }
 
 
 
 //8. Ask the user for a number and print whether each  number from 1 to that number is even or odd.
 // (e.g., "1 is odd", "2 is even", ...)
 
-// let val = prompt("give a number");
-// for (let i = 1; i<= val; i++){
-//     if(i % 2 === 0) {
-//         console.log(`${i} is even`);
-//     } else {
-//         console.log(`${i} is odd`);
-//     }
-// }
+let val = prompt("give a number");
+for (let i = 1; i<= val; i++){
+    if(i % 2 === 0) {
+        console.log(`${i} is even`);
+    } else {
+        console.log(`${i} is odd`);
+    }
+}
 
 //9. Count how many numbers between 1 to 100 are divisible by both 3 and 5.
 
-// for (let i = 1; i< 101; i++){
-//     if(i%3 === 0 && i%5 ===0){
-//         console.log(i);
-//     }
-// }
+for (let i = 1; i< 101; i++){
+    if(i%3 === 0 && i%5 ===0){
+        console.log(i);
+    }
+}
 
 
 
