@@ -75,10 +75,10 @@
 
 //Default , rest ,and  spread parameters
 
-function add(v1 = 0 ,v2 = 0){
-  console.log(v1 + v2); 
-}
-add(1,2); //default value defau;t paramerets
+// function add(v1 = 0 ,v2 = 0){
+//   console.log(v1 + v2); 
+// }
+// add(1,2); //default value defau;t paramerets
 
 
 
@@ -87,17 +87,17 @@ add(1,2); //default value defau;t paramerets
 //hai ... agar ... function ke parameter space maein  lage to wo rest operator hai and 
 // agar wo arrays and object main lage to wo spread opereats
 
-// function abcd(...val){
-//   console.log(val)
-// }
-
-// abcd(1,2,3,4,5,6,7,8,9,10);
-
-
-function abcd(a,b,c, ...val){
-  console.log(a,b,c, val);
+function abcd(...val){
+  console.log(val)
 }
-abcd(1,2,3,4,5,6);
+
+abcd(1,2,3,4,5,6,7,8,9,10);
+
+
+// function abcd(a,b,c, ...val){
+//   console.log(a,b,c, val);
+// }
+// abcd(1,2,3,4,5,6);
 
 
 //return values and early returns
