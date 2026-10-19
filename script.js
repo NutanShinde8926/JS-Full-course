@@ -118,25 +118,86 @@
 
 //first class function functions ko values ki tarah treat kar sakte hai
 
-function abcd(val) {
-  val()
-}
+// function abcd(val) {
+//   val()
+// }
 
-abcd(function () {
-  console.log("hey");
-})
+// abcd(function () {
+//   console.log("hey");
+// })
 //function can use as values that first class functions
 
 
 //Higher -order functions
 //aise functions jo ki retunr kare 1 functions yaa phit accept kare 1 functions apane parameter main
 
+// function abcd() {              // yek aisa function jo paramtere main function accept kar rah aho 
+// return function(){
+//   console.log("heyeyye");
+
+// }
+// }
+
+// abcd()()
 
 
 
+//PURE AND IMPURE Function
+
+// aisa function jo ki bahar ki value ko na badale woh hai oure function
+let a  = 12;
+function abcd() { //pure function
+  console.log("hehehhhe");
+}
+
+function hui(){ ///impure function
+  a++;
+}
+
+
+//aisa function jo ki bahar ki value kon badale wo hai impure functions
 
 
 
+//CLOSURES AND LEXICAL SCOPING
+
+//ek function jo retturn akre 1 or function  aur return hone wala function hamesh use karega parent function ka koi variabl
+
+// function abcd(){
+//   let a = 12;
+//   return function(){
+//     console.log(a);
+//   }
+// }
+
+//lexical scoping
+
+// let abcd (){
+//   let a = 12;
+//   function defg(){
+//     let b = 13;
+//     function ghij() {
+//       let c = 14;
+//     }
+//   }
+// }
+
+
+
+//IIFF (Immediatly Invoked Function Expressiosns)  
+
+// (function(){
+//  console.log("hehehe");
+// })();
+
+
+//Hoisting differences between declaration and expression
+
+
+abcd()  ///call funtion before you mske function
+function abcd () {
+  console.log("heheh");
+}
 
 
 
