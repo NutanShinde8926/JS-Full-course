@@ -87,11 +87,11 @@
 //hai ... agar ... function ke parameter space maein  lage to wo rest operator hai and 
 // agar wo arrays and object main lage to wo spread opereats
 
-function abcd(...val){
-  console.log(val)
-}
+// function abcd(...val){
+//   console.log(val)
+// }
 
-abcd(1,2,3,4,5,6,7,8,9,10);
+// abcd(1,2,3,4,5,6,7,8,9,10);
 
 
 // function abcd(a,b,c, ...val){
@@ -102,6 +102,57 @@ abcd(1,2,3,4,5,6,7,8,9,10);
 
 //return values and early returns
 //return matlab jaha se aaye ho wahi daal denge
+
+// function abcd(v){
+//   return 12 + v;
+// }
+
+// let val = abcd(24);
+// console.log(val);
+
+
+
+//early returns is alredy done in if else statement
+
+// SO NOW NEXT TOPIC IS First-class functions (assign to variables, pass as arguments, return from other functions)
+
+//first class function functions ko values ki tarah treat kar sakte hai
+
+function abcd(val) {
+  val()
+}
+
+abcd(function () {
+  console.log("hey");
+})
+//function can use as values that first class functions
+
+
+//Higher -order functions
+//aise functions jo ki retunr kare 1 functions yaa phit accept kare 1 functions apane parameter main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
