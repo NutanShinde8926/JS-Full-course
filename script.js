@@ -32,17 +32,36 @@ let fnc = function(){
 fnc();
 
 
+//Function declarations, expressions, and arrow functions
+function abcd(){
+  //this is function declaretion /statement
+}
+
+
+let fuc = function(){
+  //this is function expression when we use  save in varible. this is function expression.
+}
 
 
 
+//fat arrow function
+let fat = ()=> {
+console.log("hererere");
+};
+
+fat();
 
 
+// parameters VS arguments
+ 
+// function dance(vl) {
+//   console.log(`${vl} nach raha hai`)
+// }
 
-
-
-
-
-
+// dance("godha");
+// dance("cheel");
+// dance("heeran");
+// dance("lakadbhagaa");
 
 
 
