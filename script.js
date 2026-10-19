@@ -97,10 +97,11 @@
 // }
 
 // let i = 10;
-// while(i>0){
+// while(i > 0){
 //     console.log(i);
 //     i--;
 // }
+
 
 
 
@@ -201,21 +202,21 @@
 // prints each number
 // Stops completely when it finds the first number devisible by 7
 
-for (let i = 1; i<101; i++){
-     console.log(i);
-   if(i % 7 === 0){
-    break;
-   }
+// for (let i = 1; i<101; i++){
+//      console.log(i);
+//    if(i % 7 === 0){
+//     break;
+//    }
   
-}
+// }
 
-for (let i = 1; i<101; i++){
+// for (let i = 1; i<101; i++){
     
-   if(i % 7 === 0){
-    break;
-   }
-   console.log(i);// here we have to print 7 to that why we use consol.log up there
-}
+//    if(i % 7 === 0){
+//     break;
+//    }
+//    console.log(i);// here we have to print 7 to that why we use consol.log up there
+// }
 
 
 //Q2.Skip Multiples fo 3
@@ -226,11 +227,11 @@ for (let i = 1; i<101; i++){
 //use continue
 //Expected output:
 //1 2 4 5 7 8 10 11 ... (no 3, 6, 9 etc.)
-for(let i =1; i<21; i++){
-    if(i%3 === 0)
-        continue;
-    console.log(i);
-}
+// for(let i =1; i<21; i++){
+//     if(i%3 === 0)
+//         continue;
+//     console.log(i);
+// }
 
 //Q3 . Print first 5 odd Numbers only
 //Write a loop from 1 to 100 that:
@@ -242,24 +243,24 @@ for(let i =1; i<21; i++){
 //Expected output
 //1 3 5 7 9
 
-let count = 0;
-for(let i = 1;i<101; i++){
-    if(i%2 === 1) {
-        count++;
-        console.log(i);
-    }
-    if (count === 5) break;
-}
+// let count = 0;
+// for(let i = 1;i<101; i++){
+//     if(i%2 === 1) {
+//         count++;
+//         console.log(i);
+//     }
+//     if (count === 5) break;
+// }
 
 //Q Count how mnay digits are there in a number 12345.
 
-let num = 12345;
-let count = 0;
-while(num > 0){
-    count++;
-    num = Math.floor(num/10);
-}
-console.log("Total Digits" ,count);
+// let num = 12345;
+// let count = 0;
+// while(num > 0){
+//     count++;
+//     num = Math.floor(num/10);
+// }
+// console.log("Total Digits" ,count);
 
 
 
