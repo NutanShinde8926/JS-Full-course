@@ -1,67 +1,67 @@
 //FUNCTION 
 
-function dance() {
-  console.log("dance");
-  console.log("dance");
-  console.log("dance");
-  console.log("dance");
-  console.log("dance");
+// function dance() {
+//   console.log("dance");
+//   console.log("dance");
+//   console.log("dance");
+//   console.log("dance");
+//   console.log("dance");
 
-}
- dance();
-
-
-
- function action(){
-  for(let i = 1; i<11; i++){
-    console.log(i)
-  }
- }
-action();
-
-
-function years(){
-  console.log("Happy New Year");
-}
-years()
-
-
-let fnc = function(){
-  console.log("heyeyebdjbksksskeyryerere");
-}
-fnc();
-
-
-//Function declarations, expressions, and arrow functions
-function abcd(){
-  //this is function declaretion /statement
-}
-
-
-let fuc = function(){
-  //this is function expression when we use  save in varible. this is function expression.
-}
+// }
+//  dance();
 
 
 
-//fat arrow function
-let fat = ()=> {
-console.log("hererere");
-};
+//  function action(){
+//   for(let i = 1; i<11; i++){
+//     console.log(i)
+//   }
+//  }
+// action();
 
-fat();
+
+// function years(){
+//   console.log("Happy New Year");
+// }
+// years()
+
+
+// let fnc = function(){
+//   console.log("heyeyebdjbksksskeyryerere");
+// }
+// fnc();
+
+
+// //Function declarations, expressions, and arrow functions
+// function abcd(){
+//   //this is function declaretion /statement
+// }
+
+
+// let fuc = function(){
+//   //this is function expression when we use  save in varible. this is function expression.
+// }
+
+
+
+// //fat arrow function
+// let fat = ()=> {
+// console.log("hererere");
+// };
+
+// fat();
 
 
 // parameters VS arguments
  
-// function dance(vl) {
-//   console.log(`${vl} nach raha hai`)
-// }
+function dance(vl) {
+  console.log(`${vl} nach raha hai`)
+}
 
-// dance("godha");
-// dance("cheel");
-// dance("heeran");
-// dance("lakadbhagaa");
+dance("godha");
+dance("cheel");
+dance("heeran");
+dance("lakadbhagaa");
 
 
 
