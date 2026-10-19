@@ -163,24 +163,24 @@ function hui(){ ///impure function
 
 //ek function jo retturn akre 1 or function  aur return hone wala function hamesh use karega parent function ka koi variabl
 
-// function abcd(){
-//   let a = 12;
-//   return function(){
-//     console.log(a);
-//   }
-// }
+function abcd(){
+  let a = 12;
+  return function(){
+    console.log(a);
+  }
+}
 
 //lexical scoping
 
-// let abcd (){
-//   let a = 12;
-//   function defg(){
-//     let b = 13;
-//     function ghij() {
-//       let c = 14;
-//     }
-//   }
-// }
+function abcd() {
+  let a = 12;
+  function defg(){
+    let b = 13;
+    function ghij() {
+      let c = 14;
+    }
+  }
+}
 
 
 
