@@ -186,9 +186,9 @@ function hui(){ ///impure function
 
 //IIFF (Immediatly Invoked Function Expressiosns)  
 
-// (function(){
-//  console.log("hehehe");
-// })();
+(function(){
+ console.log("hehehe");
+})();
 
 
 //Hoisting differences between declaration and expression
