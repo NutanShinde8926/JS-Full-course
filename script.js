@@ -1,3 +1,58 @@
+//FUNCTION 
+
+function dance() {
+  console.log("dance");
+  console.log("dance");
+  console.log("dance");
+  console.log("dance");
+  console.log("dance");
+
+}
+ dance();
+
+
+
+ function action(){
+  for(let i = 1; i<11; i++){
+    console.log(i)
+  }
+ }
+action();
+
+
+function years(){
+  console.log("Happy New Year");
+}
+years()
+
+
+let fnc = function(){
+  console.log("heyeyebdjbksksskeyryerere");
+}
+fnc();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // repeat karne ko loop kehte hai
 // 1 1  1 1 1 1 1
 // 1 2 3 4 5 7 8
@@ -264,19 +319,19 @@
 
 
 
-for (let i = 1; i <= 5; i++) {
-  if (i === 3) {
-    continue; // skip the rest of this round
-  }
-  console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 3) {
+//     continue; // skip the rest of this round
+//   }
+//   console.log(i);
+// }
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 === 0) {
-    continue; // skip even numbers
-  }
-  console.log(i);
-}
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     continue; // skip even numbers
+//   }
+//   console.log(i);
+// }
 // 1 3 5 7 9
 
 
