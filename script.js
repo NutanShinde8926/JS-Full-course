@@ -44,12 +44,12 @@
 
 
 
-// //fat arrow function
-// let fat = ()=> {
-// console.log("hererere");
-// };
+// fat arrow function
+let fat = ()=> {
+console.log("hererere");
+};
 
-// fat();
+fat();
 
 
 // parameters VS arguments
