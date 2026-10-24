@@ -45,11 +45,11 @@
 
 
 // fat arrow function
-let fat = ()=> {
-console.log("hererere");
-};
+// let fat = ()=> {
+// console.log("hererere");
+// };
 
-fat();
+// fat();
 
 
 // parameters VS arguments
@@ -145,14 +145,14 @@ fat();
 //PURE AND IMPURE Function
 
 // aisa function jo ki bahar ki value ko na badale woh hai oure function
-let a  = 12;
-function abcd() { //pure function
-  console.log("hehehhhe");
-}
+// let a  = 12;
+// function abcd() { //pure function
+//   console.log("hehehhhe");
+// }
 
-function hui(){ ///impure function
-  a++;
-}
+//function hui(){ ///impure function
+//   a++;
+// }
 
 
 //aisa function jo ki bahar ki value kon badale wo hai impure functions
@@ -163,41 +163,41 @@ function hui(){ ///impure function
 
 //ek function jo retturn akre 1 or function  aur return hone wala function hamesh use karega parent function ka koi variabl
 
-function abcd(){
-  let a = 12;
-  return function(){
-    console.log(a);
-  }
-}
+// function abcd(){
+//   let a = 12;
+//   return function(){
+//     console.log(a);
+//   }
+// }
 
 //lexical scoping
 
-function abcd() {
-  let a = 12;
-  function defg(){
-    let b = 13;
-    function ghij() {
-      let c = 14;
-    }
-  }
-}
+// function abcd() {
+//   let a = 12;
+//   function defg(){
+//     let b = 13;
+//     function ghij() {
+//       let c = 14;
+//     }
+//   }
+// }
 
 
 
 //IIFF (Immediatly Invoked Function Expressiosns)  
 
-(function(){
- console.log("hehehe");
-})();
+// (function(){
+//  console.log("hehehe");
+// })();
 
 
 //Hoisting differences between declaration and expression
 
 
-abcd()  ///call funtion before you mske function
-function abcd () {
-  console.log("heheh");
-}
+// abcd()  ///call funtion before you mske function
+// function abcd () {
+//   console.log("heheh");
+// }
 
 
 
@@ -257,6 +257,43 @@ function abcd () {
 // for(let i = 1; i<101; i++) {
 //    console.log(i);
 // }
+
+// for(let i = 0; i<5; i++){
+//   console.log(i)
+// }
+// for (let i = 1; i < 6; i++) {
+//   console.log(i, "hello");
+// }
+
+
+// for(let i =10; i>0; i-- ){
+//   console.log(i)
+// }
+// for (let i = 2; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+
+// for(let i =1;i<21;i++){
+//   if(i%2 === 0){
+//     console.log(i);
+//   }
+// }
+
+// for (let i = 1; i<21; i++){
+//   if(i%2===1){
+//     console.log(i);
+//   }
+// }
+
+ 
+// for (let i=1; i<11;i++){
+//   console.log( "5*i =",5*i);
+// }
+
+for(let i=1; i<11;i++){
+  console.log(`5 * ${i} = ${5*i}`)
+}
 
 
 
