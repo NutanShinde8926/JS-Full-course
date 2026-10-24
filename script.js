@@ -301,6 +301,28 @@
 // }
 
 
+
+fruits = ["Apple", "Mnago","Banana","Orange"];
+for(let i = 0;i<fruits.length;i++){
+  console.log(fruits[i])
+}
+
+let fruits = ["Apple", "Mango", "Banana", "Orange"];
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+
+
+
+
+
+
+
+
+
+
 // // let sum = 0;
 // // for(let i =1; i<11; i++){
 // //   sum = sum + i;
@@ -326,14 +348,14 @@
 // console.log(total); // 100
 
 
-for(let i = 1; i<21;i++){
-  if(i%3 === 0){
- console.log("Fizz");
- }
- else{
-  console.log(i);
- }
-}
+// for(let i = 1; i<21;i++){
+//   if(i%3 === 0){
+//  console.log("Fizz");
+//  }
+//  else{
+//   console.log(i);
+//  }
+// }
 
 
 //WHILE loop
