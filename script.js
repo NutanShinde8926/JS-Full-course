@@ -254,16 +254,16 @@
 
 // 1 -100
 
-// for(let i = 1; i<101; i++) {
-//    console.log(i);
-// }
+for(let i = 1; i<101; i++) {
+   console.log(i);
+}
 
-// for(let i = 0; i<5; i++){
-//   console.log(i)
-// }
-// for (let i = 1; i < 6; i++) {
-//   console.log(i, "hello");
-// }
+for(let i = 0; i<5; i++){
+  console.log(i)
+}
+for (let i = 1; i < 6; i++) {
+  console.log(i, "hello");
+}
 
 
 for(let i =10; i>0; i-- ){
