@@ -254,31 +254,31 @@
 
 // 1 -100
 
-for(let i = 1; i<101; i++) {
-   console.log(i);
-}
+// for(let i = 1; i<101; i++) {
+//    console.log(i);
+// }
 
-for(let i = 0; i<5; i++){
-  console.log(i)
-}
-for (let i = 1; i < 6; i++) {
-  console.log(i, "hello");
-}
-
-
-for(let i =10; i>0; i-- ){
-  console.log(i)
-}
-for (let i = 2; i <= 20; i += 2) {
-  console.log(i);
-}
+// for(let i = 0; i<5; i++){
+//   console.log(i)
+// }
+// for (let i = 1; i < 6; i++) {
+//   console.log(i, "hello");
+// }
 
 
-for(let i =1;i<21;i++){
-  if(i%2 === 0){
-    console.log(i);
-  }
-}
+// for(let i =10; i>0; i-- ){
+//   console.log(i)
+// }
+// for (let i = 2; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+
+// for(let i =1;i<21;i++){
+//   if(i%2 === 0){
+//     console.log(i);
+//   }
+// }
 
 // for (let i = 1; i<21; i++){
 //   if(i%2===1){
@@ -295,12 +295,51 @@ for(let i =1;i<21;i++){
 //   console.log(`5 * ${i} = ${5*i}`)
 // }
 
+// let sum = 0;
+// for (let i = 1;i<101;i++){
+//     console.log(sum = sum + i );
+// }
+
+
+// // let sum = 0;
+// // for(let i =1; i<11; i++){
+// //   sum = sum + i;
+// //   console.log(sum);
+// // }
+
+// let sum = 0;
+// for(let i =1; i<101; i++){
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// let fruits = ["apple", "banana", "mango"];
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+// let nums = [10, 20, 30, 40];
+// let total = 0;
+// for (let i = 0; i < nums.length; i++) {
+//   total += nums[i];
+// }
+// console.log(total); // 100
+
+
+for(let i = 1; i<21;i++){
+  if(i%3 === 0){
+ console.log("Fizz");
+ }
+ else{
+  console.log(i);
+ }
+}
 
 
 //WHILE loop
 // start
 // while(end){
-    //code
+    //code=
 //     change
 // }
 
