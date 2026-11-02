@@ -359,19 +359,23 @@
 // } while(i < 10);
 
 
+// let i = 1;
+// do{
+//     console.log(`${i}. hello`);
+//    i++;
+// } while(i < 6);
+
+
+
+
+//Example 6: Print multiplication table of 2
 let i = 1;
 do{
-    console.log(`${i}. hello`);
-   i++;
-} while(i < 6);
-
-
-
-
-
-
-
-
+  if(i%2===0){
+    console.log(i);
+  }
+  i++;
+}while(i<21);
 
 
 
