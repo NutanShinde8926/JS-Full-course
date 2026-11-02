@@ -350,13 +350,32 @@
 //   }
 // }
 
+// let i = 1;
+// do{
+//   if( i%2 ===1){
+//     console.log(i);
+//   }
+//   i++;
+// } while(i < 10);
+
+
 let i = 1;
 do{
-  if( i%2 ===1){
-    console.log(i);
-  }
-  i++;
-} while(i < 10);
+    console.log(`${i}. hello`);
+   i++;
+} while(i < 6);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
