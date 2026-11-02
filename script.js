@@ -319,11 +319,19 @@
 
 
 //print 1 to 5 numbers 
-let i = 1;
-do{
+// let i = 1;
+// do{
+//   console.log(i);
+//   i++;
+// } while(i<6);
+
+
+//prints numbers from 5 to 1 .
+let i = 5;
+do {
   console.log(i);
-  i++;
-} while(i<6);
+  i--;
+}while (i > 0);
 
 
 
