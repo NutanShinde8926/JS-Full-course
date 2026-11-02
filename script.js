@@ -327,13 +327,21 @@
 
 
 //prints numbers from 5 to 1 .
-let i = 5;
+// let i = 5;
+// do {
+//   console.log(i);
+//   i--;
+// }while (i > 0);
+
+
+//print even numbers from 2 to 10
+let i = 2;
 do {
-  console.log(i);
-  i--;
-}while (i > 0);
-
-
+  if(i%2 === 0){
+    console.log(i);
+  }
+  i++;
+}while(i < 11);
 
 
 
