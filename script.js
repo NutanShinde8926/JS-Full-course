@@ -369,16 +369,21 @@
 
 
 //Example 6: Print multiplication table of 2
-let i = 1;
+// let i = 1;
+// do{
+//   if(i%2===0){
+//     console.log(i);
+//   }
+//   i++;
+// }while(i<21);
+
+
+//Example 7: Print numbers from 10 to 20
+let i = 10;
 do{
-  if(i%2===0){
-    console.log(i);
-  }
+  console.log(i);
   i++;
-}while(i<21);
-
-
-
+}while(i < 21);
 
 
 
