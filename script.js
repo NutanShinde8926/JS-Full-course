@@ -335,13 +335,29 @@
 
 
 //print even numbers from 2 to 10
-let i = 2;
-do {
-  if(i%2 === 0){
+// let i = 2;
+// do {
+//   if(i%2 === 0){
+//     console.log(i);
+//   }
+//   i++;
+// }while(i < 11);
+
+//print odd numbers from 1 to 9
+// for(let i = 1; i<10; i++){
+//   if (i%2 ===1){
+//     console.log(i);
+//   }
+// }
+
+let i = 1;
+do{
+  if( i%2 ===1){
     console.log(i);
   }
   i++;
-}while(i < 11);
+} while(i < 10);
+
 
 
 
