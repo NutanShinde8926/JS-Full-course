@@ -221,8 +221,8 @@
 
 
 
-
-
+ 
+//LOOPS  START FROM HERE
 
 // repeat karne ko loop kehte hai
 // 1 1  1 1 1 1 1
@@ -302,20 +302,28 @@
 
 
 
-fruits = ["Apple", "Mnago","Banana","Orange"];
-for(let i = 0;i<fruits.length;i++){
-  console.log(fruits[i])
-}
+// fruits = ["Apple", "Mnago","Banana","Orange"];
+// for(let i = 0;i<fruits.length;i++){
+//   console.log(fruits[i])
+// }
 
-let fruits = ["Apple", "Mango", "Banana", "Orange"];
+// let fruits = ["Apple", "Mango", "Banana", "Orange"];
 
-for (let fruit of fruits) {
-    console.log(fruit);
-}
-
-
+// for (let fruit of fruits) {
+//     console.log(fruit);
+// }
 
 
+
+// DO WHILE LOOP
+
+
+//print 1 to 5 numbers 
+let i = 1;
+do{
+  console.log(i);
+  i++;
+} while(i<6);
 
 
 
