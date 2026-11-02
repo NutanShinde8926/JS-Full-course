@@ -379,12 +379,23 @@
 
 
 //Example 7: Print numbers from 10 to 20
-let i = 10;
-do{
-  console.log(i);
-  i++;
-}while(i < 21);
+// let i = 10;
+// do{
+//   console.log(i);
+//   i++;
+// }while(i < 21);
 
+
+//Example 8: Find the sum of numbers from 1 to 5
+let i = 1;
+let sum = 0;
+do{
+  let old =sum;
+  sum = sum+i;
+  console.log(`${old} + ${i} = ${sum}`);
+  i++;
+}while(i<6);
+ 
 
 
 
